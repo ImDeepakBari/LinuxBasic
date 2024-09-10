@@ -1,0 +1,60 @@
+# This doc is to provide quick docs on basic of linux CLI
+
+1. File Creation
+----------------
+    touch : This is used to create an empty file.
+            This is also used to modify the file time.
+            eg: touch filename
+
+    nano: Used for file creation
+          Can be used to edit and update file content as well.
+          eg : nano filename
+
+    vi /vim : This is used to create a file
+              Have different mode:
+              "i" for insert mode : can be used to insert data to file
+              "Esc" to change mode
+              "q!" to exit without saving
+              "wq" save and exit
+              "w" for save
+
+    gedit : This is used to edit file in GNU format.
+
+    cat : This can also be used to create a file:
+        eg: cat > filename
+        For added to file or merging of files
+        eg : cat file1 file2 > file3
+        Here file3 will contain all the content form file1 and file2
+
+
+1. File/ Directories navigation
+--------------------------------
+    cd: Change Directory
+        Used for navigating between files and dir
+        eg : cd /Desktop
+            cd /home/deepak_os/Desktop
+
+    mkdir:
+        Used to create a directory
+        eg : mkdir DEEPAK  # This will create empty dir
+             mkdir -p DEEPAK/scr    # This will create a dir as well as file
+             "-p" is referring as parent
+
+    cp : copy command
+        This is used to copy file content from one to another file
+        eg : cp file1 file2  # file1 is copied to file2
+             cp file1 /home/deepak_os/desktop/file3  # This will copy file in dir containing file3
+
+
+    mv : move command
+        This is used to move file from one to another dir,and deleting the source file as well.
+        eg : mv file1 /home/deepak_os/desktop/home2
+
+             mv file2 file3 # Here file2 is renamed to file3 , because here file are moved in same dir, so it will just rename
+
+
+
+
+
+
+
