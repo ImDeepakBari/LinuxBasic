@@ -1,6 +1,6 @@
 # This doc is to provide quick docs on basic of linux CLI
 
-1. File Creation
+1.File Creation
 ----------------
     touch : This is used to create an empty file.
             This is also used to modify the file time.
@@ -27,12 +27,22 @@
         Here file3 will contain all the content form file1 and file2
 
 
-1. File/ Directories navigation
---------------------------------
+2.File/ Directories
+---------------------
     cd: Change Directory
         Used for navigating between files and dir
         eg : cd /Desktop
             cd /home/deepak_os/Desktop
+
+    ls : list system
+        This will display all the content in system
+        eg : ll # display all file including hidden
+             ls # display file system
+             ls -lart
+                 'l' for listing file type permission
+                 'a' for all hidden file
+                 'r' reverse the output
+                 't' add timestamp
 
     mkdir:
         Used to create a directory
@@ -51,6 +61,18 @@
         eg : mv file1 /home/deepak_os/desktop/home2
 
              mv file2 file3 # Here file2 is renamed to file3 , because here file are moved in same dir, so it will just rename
+
+
+    rm : remove file/dir
+        This is used to remove file and dir
+        eg : rm filename
+             rm -f filename # remove file forcefully
+             rm -rf dirname # remove non-empty dir recursively
+             rmdir dirname # remove empty directory
+
+
+
+
 
 
 
