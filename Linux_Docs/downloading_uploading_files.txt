@@ -1,0 +1,23 @@
+This section will have commands for uploading and downloading of files.
+
+  wget: wget https://www.mpe.downlaod.song.mp3
+        This commands is useful to download file 
+
+  crul: crul https:www.download.movies.mkv
+        commands: crul url
+        This is also useful to testing API endpoints , will return the status code with received payloads and headers.
+
+
+  scp : Secure Copy
+        commands: scp username@ip/hostname/directory to copy
+
+        This is useful to securely copy file between two server in network.
+        Here: IP: Ip address of receiver 
+              hostname: receiver hostname
+
+                
+
+
+
+          
+  
