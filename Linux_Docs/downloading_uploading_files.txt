@@ -5,7 +5,7 @@ This section will have commands for uploading and downloading of files.
 
   crul: crul https:www.download.movies.mkv
         commands: crul url
-        This is also useful to testing API endpoints , will return the status code with received payloads and headers.
+        This is also useful for testing API endpoints , will return the status code with received payloads and headers.
 
 
   scp : Secure Copy
